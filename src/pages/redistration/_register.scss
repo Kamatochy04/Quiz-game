@@ -1,0 +1,59 @@
+@import "../../assets/styles/variables.scss";
+
+.reg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+    &__wrapper{
+        display: flex;
+        flex-direction: column;
+        border: 5px solid #a638ffd3;
+        padding: 40px 30px;
+        border-radius: 5px;
+        background:$main-color ;
+        color: #fff;
+    }
+    &__title{
+        text-align: center;
+        font-size: 3rem;
+        color: #fff;
+    }
+    &__form{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    &__txt{
+        color: 0.7rem;
+        color: #ffffffb7;
+    }
+    &__input{
+        padding: 5px;
+        font-size: 1.2rem;
+        border: none;
+        font-weight: 300;
+        width: 100%;
+    }
+    &__button{
+        display: block;
+        background: #fff;
+        border: none;
+        padding: 10px 0;
+        margin-top: 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1.2rem;
+        transition: all .3s;
+        &:hover{
+            background: #0099ff9a;
+            color: #fff;
+        }
+    }
+    &__login{
+        margin-top: 20px;
+        color: rgb(17, 0, 255);
+        text-align: center;
+    }
+}

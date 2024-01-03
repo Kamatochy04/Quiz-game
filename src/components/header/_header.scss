@@ -1,0 +1,18 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #8b18c0b4;
+    height: 80px;
+    padding: 0 100px;
+    color: #fff;
+    .logo{
+        font-size: 1.4rem;
+    }
+    span{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        font-size: 1.2rem;
+    }
+}

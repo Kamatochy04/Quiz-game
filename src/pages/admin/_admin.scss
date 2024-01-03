@@ -1,0 +1,33 @@
+@import "../../assets/styles/variables.scss";
+
+.admin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__wrapper{
+        margin-top: 18%;
+        border: 2px solid #2064bd75;
+        border-radius: 5px;
+        padding: 10px;
+        background: $main-color;
+        color: #fff;
+    }   
+    &__title{
+        font-size: 2rem;
+        text-align: center;
+    }
+    &__password{
+        color: #0000009f;
+    }
+    &__button{
+        display: block;
+        margin: 20px auto;
+        padding: 5px 30px;
+        font-size: 1.1rem;
+        border-radius: 2px;
+        border: none;
+        background: #0084ff73;
+        cursor: pointer;
+    }
+
+}
